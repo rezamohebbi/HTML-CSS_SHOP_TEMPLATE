@@ -1,0 +1,569 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>Reza Mohebbi (digikala template)</title>
+	<link type="text/css" href="./css/font-awesome.min.css" rel="stylesheet">
+	<link type="text/css" href="./css/style.css" rel="stylesheet">
+
+	<!-- JQuery -->
+	<script type="text/javascript" src="./js/jquery-3.3.1.min.js"></script>
+	<script src="./js/city.js"></script>
+	<script src="./js/mahale.js"></script>
+
+	<!-- Bootstrap-Select Files -->
+	<link rel="stylesheet" type="text/css" href="./css/bootstrap.css">
+	<script type="text/javascript" src="./js/bootstrap.min.js"></script>
+	<link rel="stylesheet" type="text/css" href="./css/bootstrap-select.css">
+	<script type="text/javascript" src="./js/bootstrap-select.min.js"></script>
+
+	<!-- Flip Timer Required -->
+	<!-- <link href="./css/flipTimer.css" rel="stylesheet"> -->
+	<!-- <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script> -->
+	<!-- <script src="./js/jquery.flipTimer.js"></script> -->
+
+	<!-- Link Swiper's CSS -->
+	<!-- <link rel="stylesheet" href="./css/swiper.min.css"> -->
+
+
+	<!-- Elevate-Zoom -->
+	<!-- <script type="text/javascript" src="./js/jquery.ez-plus.js"></script> -->
+
+	<!-- mCustomScroll -->
+<!-- 	<link rel="stylesheet" type="text/css" href="./css/jquery.mCustomScrollbar.min.css">
+	<script type="text/javascript" src="./js/jquery.mCustomScrollbar.concat.min.js"></script> -->
+
+	<!-- JSC3D -->
+	<!-- <script type="text/javascript" src="./js/jsc3d.js"></script>
+	<script type="text/javascript" src="./js/jsc3d.touch.js"></script>
+	<script type="text/javascript" src="./js/jsc3d.webgl.js"></script> -->
+</head>
+<body>
+
+	<div class="backgroundDarkScreen" style="/*display: block;*/"></div>
+	<header>
+		<div class="header_main">
+			<div class="header_left"><img src="./images/logo.png"></div>
+			<div class="header_right">
+				<div class="header_right_top">
+					<ul>
+						<li>
+							<i class="fa fa-lock"></i>
+							<a href="/login.html">فروشگاه اینترنتی دیجی کالا، وارد شوید</a>
+						</li>
+						<li>
+							<i class="fa fa-user"></i>
+							<a href="/register.html">ثبت نام کنید</a>
+						</li>
+					</ul>
+				</div>
+				<div class="header_right_bottom">
+					<div class="header_basket">
+						<ul>
+							<li class="basket_icon"><i class="fa fa-shopping-cart"></i></li>
+							<li>سبد خرید <span>0</span></li>
+						</ul>
+					</div>
+					<div class="header_search">
+						<input type="text" placeholder="محصول، دسته بندی و یا برند مورد نظر خودرا وارد کنید..."></input>
+						<i class="fa fa-search"></i>
+					</div>
+				</div>
+			</div>
+		</div>
+	</header>
+
+
+
+	<!-- *****************************Start Top Nav************************************ -->
+
+
+	<nav id="top_nav">
+
+		<!-- Start Nav1 -->
+			<ul>
+				<li data-timerId="1">
+					<a href="">
+						کالای دیجیتال <i class="fa fa-angle-down"></i>
+					</a>
+					<!-- Start Nav2 -->
+						<ul>
+							<li data-timerId="12">
+								<a href="">
+									موبایل
+								</a>
+								<!-- Start Nav3 -->
+									<div id="nav3_main">
+										<div class="nav3_col">
+											<ul>
+												<li>گوشی موبایل</li>
+												<li>سامسونگ</li>
+												<li>اپل</li>
+												<li>شیائومی</li>
+												<li>نوکیا</li>
+											</ul>
+										</div>
+										<div class="nav3_col"></div>
+										<div class="nav3_col"></div>
+										<div class="nav3_col"></div>
+										<img src="./images/mobile1.png">
+									</div>
+								<!-- End Nav3 -->
+							</li>
+							<li data-timerId="13">
+								<a href="">
+									تبلت
+								</a>
+								<!-- Start Nav3 -->
+									<div id="nav3_main">
+										<div class="nav3_col">
+											<ul>
+												<li>تبلت</li>
+												<li>سامسونگ</li>
+												<li>اپل</li>
+												<li>شیائومی</li>
+												<li>نوکیا</li>
+											</ul>
+										</div>
+										<div class="nav3_col"></div>
+										<div class="nav3_col"></div>
+										<div class="nav3_col"></div>
+										<img src="./images/mobile1.png">
+									</div>
+								<!-- End Nav3 -->
+							</li>
+							<li data-timerId="14">
+								<a href="">
+									کتابخوان
+								</a>
+								<!-- Start Nav3 -->
+									<div id="nav3_main">
+										<div class="nav3_col">
+											<ul>
+												<li>کتابخوان</li>
+												<li>سامسونگ</li>
+												<li>اپل</li>
+												<li>شیائومی</li>
+												<li>نوکیا</li>
+											</ul>
+										</div>
+										<div class="nav3_col"></div>
+										<div class="nav3_col"></div>
+										<div class="nav3_col"></div>
+										<img src="./images/mobile1.png">
+									</div>
+								<!-- End Nav3 -->
+							</li>
+						</ul>
+					<!-- End Nav2 -->
+				</li>
+				<li data-timerId="2">
+					<a href="">
+						لوازم خانگی <i class="fa fa-angle-down"></i>
+					</a>
+					<!-- Start Nav2 -->
+						<ul>
+							<li data-timerId="21">
+								<a href="">
+									لوازم برقی
+								</a>
+								<!-- Start Nav3 -->
+									<div id="nav3_main">
+										<div class="nav3_col">
+											<ul>
+												<li>جاروبرقی</li>
+												<li>سامسونگ</li>
+												<li>اپل</li>
+												<li>شیائومی</li>
+											</ul>
+										</div>
+										<div class="nav3_col"></div>
+										<div class="nav3_col"></div>
+										<div class="nav3_col"></div>
+										<img src="./images/mobile1.png">
+									</div>
+								<!-- End Nav3 -->
+							</li>
+							<li data-timerId="22">
+								<a href="">
+									گرمایشی
+								</a>
+							</li>
+							<li data-timerId="23">
+								<a href="">
+									سرویس چوب
+								</a>
+							</li>
+						</ul>
+					<!-- End Nav2 -->
+				</li>
+			</ul>
+		<!-- End Nav1 -->
+	</nav>
+
+
+
+	<div class="addAddressModal" style="display: block;">
+		<div class="head">
+			<i></i>
+			<h4>افزودن آدرس جدید</h4>
+		</div>
+		<div class="row">
+			<div class="right"><span>نام و نام خانوادگی تحویل گیرنده : </span></div>
+			<div class="left">
+				<input type="text"></input>
+			</div>
+		</div>
+		<div class="row">
+			<div class="right"><span>شماره همراه : </span></div>
+			<div class="left">
+				<input type="text"></input>
+			</div>
+		</div>
+		<div class="row">
+			<div class="right"><span>شماره ثابت : </span></div>
+			<div class="left">
+				<input type="text"></input>
+			</div>
+		</div>
+		<div class="row">
+			<div class="right"><span>استان/شهر : </span></div>
+			<div class="left" style="width: 55%;">
+				<select id="" onchange="ostan(this)" class="selectpicker" data-live-search="true">
+					<option value="">انتخاب استان</option>
+
+					<option data-val="41" value="آذربایجان شرقی">آذربایجان شرقی</option>
+					<option data-val="44" value="آذربایجان غربی">آذربایجان غربی</option>
+					<option data-val="45" value="اردبیل">اردبیل</option>
+					<option data-val="31" value="اصفهان">اصفهان</option>
+					<option data-val="26" value="البرز">البرز</option>
+
+					<option data-val="84" value="ایلام">ایلام</option>
+
+					<option data-val="77" value="بوشهر">بوشهر</option>
+					<option data-val="21" value="تهران">تهران</option>
+					<option data-val="38" value="چهارمحال و بختیاری">چهارمحال و بختیاری</option>
+					<option data-val="56" value="خراسان جنوبی">خراسان جنوبی</option>
+					<option data-val="51" value="خراسان رضوی">خراسان رضوی</option>
+					<option data-val="58" value="خراسان شمالی">خراسان شمالی</option>
+
+					<option data-val="61" value="خوزستان">خوزستان</option>
+					<option data-val="24" value="زنجان">زنجان</option>
+					<option data-val="23" value="سمنان">سمنان</option>
+					<option data-val="54" value="سیستان و بلوچستان">سیستان و بلوچستان</option>
+					<option data-val="71" value="فارس">فارس</option>
+					<option data-val="28" value="قزوین">قزوین</option>
+
+					<option data-val="25" value="قم">قم</option>
+					<option data-val="87" value="کردستان">کردستان</option>
+					<option data-val="34" value="کرمان">کرمان</option>
+					<option data-val="83" value="کرمانشاه">کرمانشاه</option>
+					<option data-val="74" value="کهکیلویه و بویراحمد">کهکیلویه و بویراحمد</option>
+					<option data-val="17" value="گلستان">گلستان</option>
+
+					<option data-val="13" value="گیلان">گیلان</option>
+					<option data-val="66" value="لرستان">لرستان</option>
+					<option data-val="15" value="مازندران">مازندران</option>
+					<option data-val="86" value="مرکزی">مرکزی</option>
+					<option data-val="76" value="هرمزگان">هرمزگان</option>
+					<option data-val="81" value="همدان">همدان</option>
+
+					<option data-val="35" value="یزد">یزد</option>
+					
+
+
+				</select>
+
+				<span class="shahr" onchange="mahale(this)">
+					<select class="selectpicker" data-live-search="true">
+						<option value="">انتخاب شهر</option>
+					</select>
+				</span>
+
+			</div>
+		</div>
+		<div class="row">
+			<div class="right"><span>محله : </span></div>
+			<div class="left">
+				<span class="mahale">
+					<select class="selectpicker" data-live-search="true">
+						<option value="">محله خود را انتخاب کنید</option>
+					</select>
+				</span>
+			</div>
+		</div>
+
+		<div class="row textareaInputDiv">
+			<div class="right"><span>آدرس پستی : </span></div>
+			<div class="left">
+				<textarea></textarea>
+			</div>
+		</div>
+
+		<div class="row">
+			<div class="right"><span>کد پستی : </span></div>
+			<div class="left">
+				<input type="text"></input>
+			</div>
+		</div>
+
+		<div class="row">
+			<div class="left goLeft">
+				<span class="registerInfoAndContinueBtn" style="background: green;float: left;">ذخیره اطلاعات و بازگشت</span>
+			</div>
+		</div>
+	</div>
+
+
+
+
+
+
+	<div class="panel-main">
+		<div class="panel-box">
+			<div class="steps-level">
+				<span class="first"></span>
+				<ul class="stepsUl">
+					<li class="active">
+						<span class="step-circle"></span>
+						<span class="step-line"></span>
+						<span class="step-caption">ورود به دیجی کالا</span>
+					</li>
+					<li>
+						<span class="step-circle"></span>
+						<span class="step-line"></span>
+						<span class="step-caption">اطلاعات ارسال سفارش</span>
+					</li>
+					<li>
+						<span class="step-circle"></span>
+						<span class="step-line"></span>
+						<span class="step-caption">بازبینی سفارش</span>
+					</li>
+					<li>
+						<span class="step-circle"></span>
+						<span class="step-caption">اطلاعات پرداخت</span>
+					</li>
+				</ul>
+				<span class="last"></span>
+			</div>
+		</div>
+		<div class="panel-box">
+			<div class="address-header">
+				<h5>انتخاب آدرس</h5>
+				<span class="addAddress">افزودن آدرس جدید</span>
+			</div>
+			<div class="addressTableDiv">
+				<table class="addressTable active">
+					<tr>
+						<td rowspan="3" style="width: 64px;">
+							<span class="activeSign"></span>
+							<span class="circle"></span>
+						</td>
+						<td colspan="3" style="height: 44px;">رضا محبی</td>
+						<td rowspan="3" style="width: 50px;padding: 0px !important;">
+							<table class="subTableAddress">
+								<tr><td><i style="background: rgba(0,0,255,.4);" class="fa fa-pencil"></i></td></tr>
+								<tr><td><i style="background: rgba(255,0,0,.6);" class="fa fa-remove"></i></td></tr>
+							</table>
+						</td>
+					</tr>
+					<tr>
+						<td style="width: 200px;">استان : تهران</td>
+						<td rowspan="2">
+						محله : نیروگاه <br>
+						منطقه .......... پلاک ............ طبقه .............<br>
+						کد پستی 444555555محله : نیروگاه <br>
+						منطقه .......... پلاک ............ طبقه .............<br>
+						کد پستی 444555555
+						</td>
+						<td style="width: 250px;font-size: 10.4pt;color: #534e4e;">شماره تماس اظطراری : 09056897451</td>
+					</tr>
+					<tr>
+						<td style="width: 200px;">شهر : تهران</td>
+						<td style="width: 250px;font-size: 10.4pt;color: #534e4e;">شماره تماس ثابت : 38859471</td>
+					</tr>
+				</table>
+			</div>
+			<div class="addressTableDiv">
+				<table class="addressTable">
+					<tr>
+						<td rowspan="3" style="width: 64px;">
+							<span class="activeSign"></span>
+							<span class="circle"></span>
+						</td>
+						<td colspan="3" style="height: 44px;">رضا محبی</td>
+						<td rowspan="3" style="width: 50px;padding: 0px !important;">
+							<table class="subTableAddress">
+								<tr><td><i style="background: rgba(0,0,255,.4);" class="fa fa-pencil"></i></td></tr>
+								<tr><td><i style="background: rgba(255,0,0,.6);" class="fa fa-remove"></i></td></tr>
+							</table>
+						</td>
+					</tr>
+					<tr>
+						<td style="width: 200px;">استان : تهران</td>
+						<td rowspan="2">
+						محله : نیروگاه <br>
+						منطقه .......... پلاک ............ طبقه .............<br>
+						کد پستی 444555555
+						</td>
+						<td style="width: 250px;font-size: 10.4pt;color: #534e4e;">شماره تماس اظطراری : 09056897451</td>
+					</tr>
+					<tr>
+						<td style="width: 200px;">شهر : تهران</td>
+						<td style="width: 250px;font-size: 10.4pt;color: #534e4e;">شماره تماس ثابت : 38859471</td>
+					</tr>
+				</table>
+			</div>
+		</div>
+
+		<div class="panel-box">
+			<h4>شیوه ارسال</h4>
+			<table class="transmitMethod active">
+				<tr>
+					<td style="width: 60px;">
+						<span class="circle"></span>
+					</td>
+					<td>
+						<div class="right"><img src="./images/samsung_png.png"></div>
+						<div class="left">
+							<p>پست پیشتاز (هزینه پست طبق تعرفه پست)<br><small style="color: #9c9c9c;font-size: 10pt;">زمان تقریبی تحویل سفارش براساس محدوده جغرافیایی 48 - 72ساعت</small></p>
+						</div>
+					</td>
+					<td style="width: 140px;vertical-align: middle;text-align: center;line-height: 28px;">
+						<span>هزینه ارسال</span><br>
+						<span style="color: green;font-size: 15.4pt;">4,500 تومان</span>
+					</td>
+				</tr>
+			</table>
+			<table class="transmitMethod">
+				<tr>
+					<td style="width: 60px;">
+						<span class="circle"></span>
+					</td>
+					<td>
+						<div class="right"><img src="./images/samsung_png.png"></div>
+						<div class="left">
+							<p>پست پیشتاز (هزینه پست طبق تعرفه پست)<br><small style="color: #9c9c9c;font-size: 10pt;">زمان تقریبی تحویل سفارش براساس محدوده جغرافیایی 48 - 72ساعت</small></p>
+						</div>
+					</td>
+					<td style="width: 140px;vertical-align: middle;text-align: center;line-height: 28px;">
+						<span>هزینه ارسال</span><br>
+						<span style="color: green;font-size: 15.4pt;">4,500 تومان</span>
+					</td>
+				</tr>
+			</table>
+
+			<div style="float: right;width: 100%;text-align: left;">
+				<span class="registerInfoAndContinueBtn">ثبت اطلاعات و ادامه خرید</span>
+			</div>
+		</div>
+	</div>
+
+
+
+
+
+	<!-- *******************************Start Footer************************************* -->
+		<footer>
+			<div class="footerHead">
+				<p>24 ساعته 7 روز هفته پاسخگوی شما هستیم.</p>
+				<ul>
+					<li>
+						021-9511-9095|021-6193000 <i class="fa fa-phone"></i>
+					</li>
+					<li>
+						سوالات متداول <i class="fa fa-question-circle"></i>
+					</li>
+					<li>
+						info@digikala.com <i class="fa fa-envelope"></i>
+					</li>
+				</ul>
+			</div>
+
+			<div class="col">
+				<ul>
+					<a href=""><li>راهنمای خرید از دیجی کالا</li></a>
+					<a href=""><li>ثبت سفارش</li></a>
+					<a href=""><li>رویه های ارسال سفارش</li></a>
+					<a href=""><li>شیوه های پرداخت</li></a>
+					<a href=""><li>معرفی دیجی بن</li></a>
+				</ul>
+			</div>
+			<div class="col">
+				<ul>
+					<a href=""><li>خدمات مشتریان</li></a>
+					<a href=""><li>پاسخ به پرسش های متداول</li></a>
+					<a href=""><li>رویه های بازگرداندن کالا</li></a>
+					<a href=""><li>شرایط استفاده</li></a>
+					<a href=""><li>حریم خصوصی</li></a>
+				</ul>
+			</div>
+			<div class="col">
+				<ul>
+					<a href=""><li>اولین نفری که مطلع میشود باشید!</li></a>
+				</ul>
+				<div class="footerSubscribe">
+					<input type="text" placeholder="ایمیل خود را وارد کنید..."></input>
+					<button>تایید ایمیل</button>
+				</div>
+				<div class="footerSocial">
+					<ul>
+						<a href="#facebook"><li class="facebook"></li></a>
+						<a href="#twitter"><li class="twitter"></li></a>
+						<a href="#google-plus"><li class="google-plus"></li></a>
+						<a href="#instagram"><li class="instagram"></li></a>
+						<a href="#aparat"><li class="aparat"></li></a>
+						<a href="#telegram"><li class="telegram"></li></a>
+					</ul>
+					<div class="getApp">
+						<ul>
+							<a href="#getApp1"><img src="./images/getApp_1.png"></a>
+							<a href="#getApp2"><img src="./images/getApp_2.png"></a>
+						</ul>
+					</div>
+				</div>
+				<h2 style="text-align: left;direction: ltr;">@made by <a href="https://github.com/rezamohebbi/HTML-CSS_SHOP_TEMPLATE">Reza Mohebbi</a></h2>
+			</div>
+		</footer>
+	<!-- *******************************End Footer************************************* -->
+
+
+
+
+	<script type="text/javascript">
+
+	/* Start selectpicker */
+		$(".selectpicker").selectpicker();
+	/* End selectpicker */
+
+		/* Start Top Navigation Scripts */
+			var menuTimer = {};
+
+			$("#top_nav li").hover(function(){
+				let tag = $(this);
+				let attr = tag.attr('data-timerId');
+				clearTimeout(menuTimer[attr]);
+				menuTimer[attr] = setTimeout(function(){
+					$(" > ul", tag).fadeIn(0);
+					tag.addClass('hovered-menu');
+					$(" > a > i", tag).attr('class', '').addClass('fa fa-angle-up');
+					$(" > #nav3_main", tag).fadeIn(0);
+				}, 500);
+			}, function(){
+				let tag = $(this);
+				let attr = tag.attr('data-timerId');
+				clearTimeout(menuTimer[attr]);
+				menuTimer[tag.attr('data-timerId')] = setTimeout(function(){
+					$(" > ul", tag).fadeOut(0);
+					tag.removeClass('hovered-menu');
+					$(" > a > i", tag).addClass('fa-angle-down');
+					$(" > #nav3_main", tag).fadeOut(0);
+				}, 500);
+				
+			});
+		/* End Top Navigation Scripts */
+	</script>
+
+
+</body>
+</html>
